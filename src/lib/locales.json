@@ -1,0 +1,28 @@
+{
+  "verduras": [
+    {
+      "numeroLocal": 1,
+      "encargados": ["Manuel Causil "]
+    },
+    {
+      "numeroLocal": 2,
+      "encargados": ["Justo Villalba ", "Jose Perex"]
+    },
+    {
+      "numeroLocal": 3,
+      "encargados": ["Justo Villalba"]
+    },
+    {
+      "numeroLocal": 4,
+      "encargados": ["Justo Villalba"]
+    },
+    {
+      "numeroLocal": 5,
+      "encargados": ["Justo Villalba"]
+    },
+    {
+      "numeroLocal": 6,
+      "encargados": ["Justo Villalba"]
+    }
+  ]
+}

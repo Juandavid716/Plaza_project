@@ -1,17 +1,16 @@
-import meat from "../../images/meat.jpeg";
-import plazaLogo from "../../images/plaza_logo.png";
+import plaza from "../../images/plaza.png";
 import frutas from "../../images/frutas.png";
 import carnicos from "../../images/carnicos.png";
 import restaurantes from "../../images/restaurantes.png";
 import granos from "../../images/granos.png";
 import variedades from "../../images/variedades.png";
-import "./home.css";
-export const Home = () => {
+import "./template.css";
+export const Template = ({ children }) => {
   return (
     <main>
       <div className="banner">
         <div className="logo">
-          <img src={plazaLogo} alt="plazaLogo" />
+          <img src={plaza} alt="plazaLogo" />
         </div>
       </div>
       <div className="navbar nav-sections">
@@ -60,6 +59,7 @@ export const Home = () => {
           </div>
         </nav>
       </div>
+      <div className="childrenContent"> {children}</div>
       <div className="products">
         <h2>Encuentra nuestros locales comerciales por categoría</h2>
         <div className="products_items">

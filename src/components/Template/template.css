@@ -133,6 +133,10 @@
   margin: 0.3em;
   text-align: center;
 }
+.childrenContent {
+  display: flex;
+  justify-content: center;
+}
 
 @keyframes zoom {
   0% {
