@@ -2,27 +2,320 @@
   "verduras": [
     {
       "numeroLocal": 1,
-      "encargados": ["Manuel Causil "]
+      "encargados": ["Manuel Causil"]
     },
     {
       "numeroLocal": 2,
-      "encargados": ["Justo Villalba ", "Jose Perex"]
+      "encargados": ["Justo Villalba ", "Jose Perez"]
     },
     {
       "numeroLocal": 3,
-      "encargados": ["Justo Villalba"]
+      "encargados": ["Viviana Caraballo"]
     },
     {
       "numeroLocal": 4,
-      "encargados": ["Justo Villalba"]
+      "encargados": ["Maria Riveros"]
     },
     {
       "numeroLocal": 5,
-      "encargados": ["Justo Villalba"]
+      "encargados": ["Adriana Garcia"]
     },
     {
       "numeroLocal": 6,
-      "encargados": ["Justo Villalba"]
+      "encargados": ["Jose Conde"]
+    },
+    {
+      "numeroLocal": 7,
+      "encargados": ["Betty Polo"]
+    },
+    {
+      "numeroLocal": 8,
+      "encargados": ["Jose Perez"]
+    },
+    {
+      "numeroLocal": 9,
+      "encargados": ["Petrona Diaz"]
+    },
+    {
+      "numeroLocal": 10,
+      "encargados": ["Delsy Santana"]
+    },
+    {
+      "numeroLocal": 11,
+      "encargados": ["Pola Beleño"]
+    },
+    {
+      "numeroLocal": 12,
+      "encargados": ["Fredy Pantoja"]
+    },
+    {
+      "numeroLocal": 13,
+      "encargados": ["Lidia Durante"]
+    },
+    {
+      "numeroLocal": 14,
+      "encargados": ["Julio Cogollo"]
+    }
+  ],
+  "platanos": [
+    {
+      "numeroLocal": 15,
+      "encargados": ["Ruth Baron"]
+    },
+    {
+      "numeroLocal": 16,
+      "encargados": ["Luis Mendez"]
+    },
+    {
+      "numeroLocal": 17,
+      "encargados": ["Edel Villalba"]
+    },
+    {
+      "numeroLocal": 18,
+      "encargados": ["Melissa Moreno", "Doris Moreno"]
+    },
+    {
+      "numeroLocal": 19,
+      "encargados": ["Gregorio Ramos"]
+    }
+  ],
+  "Pescado": [
+    {
+      "numeroLocal": 20,
+      "encargados": ["Juan Garcés"]
+    },
+    {
+      "numeroLocal": 21,
+      "encargados": ["Edilma Uran", "Mary Uran", "Adriana Uran"]
+    },
+    {
+      "numeroLocal": 22,
+      "encargados": [
+        "Nancy Peña ",
+        "Yalenys Peña",
+        "Reinel Peña",
+        "Bartolo Peña ",
+        "Manuel Peña",
+        "Alfonso Peña "
+      ]
+    },
+    {
+      "numeroLocal": 23,
+      "encargados": ["Alvaro Villadiego "]
+    },
+    {
+      "numeroLocal": 24,
+      "encargados": [
+        "Juan Carlos Fuentes ",
+        "Sergio Fuentes ",
+        "Manuel Fuentes ",
+        "Jose Manuel Fuentes ",
+        "Luis Fuentes"
+      ]
+    },
+    {
+      "numeroLocal": 25,
+      "encargados": ["Temilda Morales "]
+    },
+    {
+      "numeroLocal": 26,
+      "encargados": ["Nuris Pineda "]
+    },
+    {
+      "numeroLocal": 27,
+      "encargados": ["Ana Villalba", "Yamina Villalba "]
+    },
+    {
+      "numeroLocal": 28,
+      "encargados": ["Domingo Alarcon "]
+    },
+    {
+      "numeroLocal": 29,
+      "encargados": ["Anibal Morano "]
+    },
+    {
+      "numeroLocal": 30,
+      "encargados": ["Rider Coneo "]
+    },
+    {
+      "numeroLocal": 31,
+      "encargados": ["Cristo Cogollo "]
+    },
+    {
+      "numeroLocal": 32,
+      "encargados": ["Manuel Benitez "]
+    }
+  ],
+  "CarneDeRes": [
+    {
+      "numeroLocal": 33,
+      "encargados": [
+        "Laureano Ruiz ",
+        "Wilson Ruiz ",
+        "Carlos Ruiz",
+        "Luis Ruiz"
+      ]
+    },
+    {
+      "numeroLocal": 34,
+      "encargados": ["Guillermo Almanza"]
+    },
+    {
+      "numeroLocal": 35,
+      "encargados": ["Eusebio Tirado "]
+    }
+  ],
+  "CarneDeCerdo": [
+    {
+      "numeroLocal": 36,
+      "encargados": ["Jaime Morales ", "Fredy Morales", "Richard Morales"]
+    },
+    {
+      "numeroLocal": 37,
+      "encargados": ["Heriberto Suarez ", "Luis Suarez"]
+    },
+    {
+      "numeroLocal": 38,
+      "encargados": ["Neider Hernandez "]
+    },
+    {
+      "numeroLocal": 39,
+      "encargados": ["Segundo Cordero ", "Diego Cordero", "Alvaro Cordero "]
+    },
+    {
+      "numeroLocal": 40,
+      "encargados": ["Carlos Otero "]
+    },
+    {
+      "numeroLocal": 41,
+      "encargados": ["Yolima Ayala "]
+    },
+    {
+      "numeroLocal": 42,
+      "encargados": ["Consuelo Perez"]
+    },
+    {
+      "numeroLocal": 43,
+      "encargados": ["Cesar Argumedo "]
+    },
+    {
+      "numeroLocal": 44,
+      "encargados": ["Cristobal Miranda "]
+    }
+  ],
+  "Restaurantes": [
+    {
+      "numeroLocal": 45,
+      "encargados": ["Ana Peña "]
+    },
+    {
+      "numeroLocal": 46,
+      "encargados": ["Martha Muñoz "]
+    },
+    {
+      "numeroLocal": 47,
+      "encargados": ["Maria Saez"]
+    }
+  ],
+  "Fritos": [
+    {
+      "numeroLocal": 48,
+      "encargados": ["Rosa Bustamante "]
+    },
+    {
+      "numeroLocal": 49,
+      "encargados": ["Yaneth Mejía  ", "Sixta Mejía"]
+    },
+    {
+      "numeroLocal": 50,
+      "encargados": ["Margarita Avilez "]
+    },
+    {
+      "numeroLocal": 51,
+      "encargados": ["Rosa Iris Perez "]
+    },
+    {
+      "numeroLocal": 52,
+      "encargados": ["Vilma"]
+    }
+  ],
+  "Jugos": [
+    {
+      "numeroLocal": 53,
+      "encargados": ["Victor Yeneris"]
+    },
+    {
+      "numeroLocal": 54,
+      "encargados": ["Omar"]
+    },
+    {
+      "numeroLocal": 55,
+      "encargados": ["Patricio"]
+    }
+  ],
+
+  "Granos": [
+    {
+      "numeroLocal": 56,
+      "encargados": ["Tamar Caraballo"]
+    },
+    {
+      "numeroLocal": 57,
+      "encargados": ["Jose Domingo Diaz "]
+    },
+    {
+      "numeroLocal": 58,
+      "encargados": ["Fabio Durango"]
+    },
+    {
+      "numeroLocal": 59,
+      "encargados": ["Emidio Martinez"]
+    },
+    {
+      "numeroLocal": 60,
+      "encargados": ["Roberto Tirado"]
+    },
+    {
+      "numeroLocal": 61,
+      "encargados": ["Lucida Arcia"]
+    },
+    {
+      "numeroLocal": 62,
+      "encargados": ["Patricia Saez"]
+    },
+    {
+      "numeroLocal": 63,
+      "encargados": ["Sirly Naranjo"]
+    },
+    {
+      "numeroLocal": 64,
+      "encargados": ["Elvia De Giraldo"]
+    }
+  ],
+  "Variedades": [
+    {
+      "numeroLocal": 65,
+      "encargados": ["Alcira Padilla"]
+    },
+    {
+      "numeroLocal": 66,
+      "encargados": ["Ana Martinez ", "Guillermo Martinez "]
+    },
+    {
+      "numeroLocal": 67,
+      "encargados": ["Miguel Sarmiento "]
+    },
+    {
+      "numeroLocal": 68,
+      "encargados": ["Ema Villera "]
+    },
+    {
+      "numeroLocal": 69,
+      "encargados": ["Dora Argumedo "]
+    },
+    {
+      "numeroLocal": 70,
+      "encargados": ["Manuel Chima "]
     }
   ]
 }

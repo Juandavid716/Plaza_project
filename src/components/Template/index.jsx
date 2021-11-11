@@ -4,6 +4,7 @@ import carnicos from "../../images/carnicos.png";
 import restaurantes from "../../images/restaurantes.png";
 import granos from "../../images/granos.png";
 import variedades from "../../images/variedades.png";
+import { Link } from "react-router-dom";
 import "./template.css";
 export const Template = ({ children }) => {
   return (
@@ -63,36 +64,36 @@ export const Template = ({ children }) => {
       <div className="products">
         <h2>Encuentra nuestros locales comerciales por categoría</h2>
         <div className="products_items">
-          <div className="product_item">
+          <Link to="/categorias/frutas" className="product_item">
             <div className="products_image">
               <img src={frutas} alt="frutas"></img>
             </div>
             <div className="products_name"> Frutas y verduras</div>
-          </div>
-          <div className="product_item">
+          </Link>
+          <Link to="/categorias/carnicos" className="product_item">
             <div className="products_image">
               <img src={carnicos} alt="carnicos"></img>
             </div>
             <div className="products_name"> Cárnicos</div>
-          </div>
-          <div className="product_item">
+          </Link>
+          <Link to="/categorias/restaurantes" className="product_item">
             <div className="products_image">
               <img src={restaurantes} alt="restaurantes"></img>{" "}
             </div>
             <div className="products_name"> Restaurantes</div>
-          </div>
-          <div className="product_item">
+          </Link>
+          <Link to="/categorias/granos" className="product_item">
             <div className="products_image">
               <img src={granos} alt="granos"></img>{" "}
             </div>
             <div className="products_name">Granos </div>
-          </div>
-          <div className="product_item">
+          </Link>
+          <Link to="/categorias/variedades" className="product_item">
             <div className="products_image">
               <img src={variedades} alt="variedades"></img>{" "}
             </div>
             <div className="products_name"> Variedades</div>
-          </div>
+          </Link>
         </div>
       </div>
     </main>

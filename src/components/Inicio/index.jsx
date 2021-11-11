@@ -1,4 +1,4 @@
 import { Template } from "../Template";
 export const Inicio = () => {
-  <Template />;
+  return <Template></Template>;
 };
