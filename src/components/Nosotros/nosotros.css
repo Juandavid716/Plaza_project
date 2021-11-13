@@ -1,0 +1,12 @@
+.reglamento {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0px 90px 0px;
+}
+.button-orange {
+  background-color: #fd7e14;
+  border-color: #fd7e14;
+}
+.easterEgg {
+  display: none;
+}

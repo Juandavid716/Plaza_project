@@ -7,6 +7,8 @@ import { Restaurantes } from "./components/Restaurantes";
 import { Variedades } from "./components/Variedades";
 import { Granos } from "./components/Granos";
 import { Inicio } from "./components/Inicio";
+import { Nosotros } from "./components/Nosotros";
+import { Reglamento } from "./components/Reglamento";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         />
         <Route exact path="/categorias/variedades" element={<Variedades />} />
         <Route exact path="/categorias/granos" element={<Granos />} />
+        <Route exact path="/nosotros" element={<Nosotros />} />
+        <Route exact path="/nosotros/mision" element={<Reglamento />} />
       </Routes>
     </Router>
   );

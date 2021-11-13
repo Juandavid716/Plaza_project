@@ -1,0 +1,14 @@
+.information .item {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 90%;
+  margin-top: 30px;
+  text-align: justify;
+  font-size: 26px;
+}
+.information {
+  margin-top: 20px;
+}
+.item_list {
+  color: #ee731a;
+}
