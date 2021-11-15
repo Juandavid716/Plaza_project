@@ -31,17 +31,32 @@ export const Manuales = () => {
           </h3>
           <div className="manuales">
             <div className="col-sm-3">
-              <Link to={manualAL} target="_blank" download>
+              <Link
+                className="manualImage"
+                to={manualAL}
+                target="_blank"
+                download
+              >
                 <img className="image_manual" src={manual1} alt="manual 1" />
               </Link>
             </div>
             <div className="col-sm-3">
-              <Link to={manualAL} target="_blank" download>
+              <Link
+                className="manualImage"
+                to={manualAL}
+                target="_blank"
+                download
+              >
                 <img className="image_manual" src={manual1} alt="manual 1" />
               </Link>
             </div>
             <div className="col-sm-3">
-              <Link to={manualAL} target="_blank" download>
+              <Link
+                className="manualImage"
+                to={manualAL}
+                target="_blank"
+                download
+              >
                 <img className="image_manual" src={manual1} alt="manual 1" />
               </Link>
             </div>
