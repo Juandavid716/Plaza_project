@@ -9,6 +9,8 @@ import { Granos } from "./components/Granos";
 import { Inicio } from "./components/Inicio";
 import { Nosotros } from "./components/Nosotros";
 import { Reglamento } from "./components/Reglamento";
+import { Valores } from "./components/Valores";
+import { Politicas } from "./components/Politicas";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route exact path="/categorias/granos" element={<Granos />} />
         <Route exact path="/nosotros" element={<Nosotros />} />
         <Route exact path="/nosotros/mision" element={<Reglamento />} />
+        <Route exact path="/nosotros/valores" element={<Valores />} />
+        <Route exact path="/nosotros/politicas" element={<Politicas />} />
       </Routes>
     </Router>
   );

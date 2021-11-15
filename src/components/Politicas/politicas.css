@@ -1,0 +1,13 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.politicas_ul li::before {
+  content: "• ";
+  color: #ee731a; /* or whatever color you prefer */
+}
+.normas {
+  display: flex;
+  justify-content: center;
+}

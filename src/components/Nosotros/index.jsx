@@ -46,7 +46,7 @@ export const Nosotros = () => {
                   Conoce los valores y creencias de nuestra empresa.
                 </p>
                 <a
-                  href="/nosotros/mision"
+                  href="/nosotros/valores"
                   className="btn btn-primary button-orange"
                 >
                   Ver más
@@ -62,7 +62,7 @@ export const Nosotros = () => {
                   Conoce las politicas y normas de nuestra empresa.
                 </p>
                 <a
-                  href="/nosotros/mision"
+                  href="/nosotros/politicas"
                   className="btn btn-primary button-orange"
                 >
                   Ver más
