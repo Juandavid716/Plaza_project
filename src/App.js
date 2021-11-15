@@ -12,6 +12,7 @@ import { Reglamento } from "./components/Reglamento";
 import { Valores } from "./components/Valores";
 import { Politicas } from "./components/Politicas";
 import { Organigrama } from "./components/Organigrama";
+import { Manuales } from "./components/Manuales";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="/nosotros/valores" element={<Valores />} />
         <Route exact path="/nosotros/politicas" element={<Politicas />} />
         <Route exact path="/nuestraorg" element={<Organigrama />} />
+        <Route exact path="/manuales" element={<Manuales />} />
       </Routes>
     </Router>
   );

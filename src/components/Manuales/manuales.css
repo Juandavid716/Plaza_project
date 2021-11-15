@@ -1,0 +1,10 @@
+.image_manual {
+  max-width: 450px;
+  width: 90%;
+  height: auto;
+}
+.manuales {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

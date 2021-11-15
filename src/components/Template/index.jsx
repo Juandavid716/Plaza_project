@@ -46,7 +46,7 @@ export const Template = ({ children }) => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link" href="/manuales">
                     Manuales
                   </a>
                 </li>
