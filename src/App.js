@@ -11,6 +11,7 @@ import { Nosotros } from "./components/Nosotros";
 import { Reglamento } from "./components/Reglamento";
 import { Valores } from "./components/Valores";
 import { Politicas } from "./components/Politicas";
+import { Organigrama } from "./components/Organigrama";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route exact path="/nosotros/mision" element={<Reglamento />} />
         <Route exact path="/nosotros/valores" element={<Valores />} />
         <Route exact path="/nosotros/politicas" element={<Politicas />} />
+        <Route exact path="/nuestraorg" element={<Organigrama />} />
       </Routes>
     </Router>
   );

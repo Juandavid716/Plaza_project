@@ -133,12 +133,10 @@ export const Politicas = () => {
                     </li>
                     <li>Tomar algun articulo del mercado sin pagar</li>
                     <li>Tomar el turno de compra de otro cliente.</li>
-                    <li>
-                      Irrespetar la estructura o edificación del mercado.{" "}
-                    </li>
+                    <li>Irrespetar la estructura o edificación del mercado.</li>
                     <li>
                       Intentar vender en las instalaciones sin ser miembro del
-                      grupo registrado desde administración.{" "}
+                      grupo registrado desde administración.
                     </li>
                   </ul>
                 </div>
