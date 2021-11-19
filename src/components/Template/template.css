@@ -25,8 +25,14 @@
 }
 .navbar-nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   border-radius: 20px;
+}
+.collapse:not(.show) {
+  display: block;
+}
+.nav-item {
+  padding: 0 20px;
 }
 .logo {
   display: flex;
@@ -196,5 +202,11 @@ footer {
     max-width: 100% !important;
     width: auto !important;
     height: auto !important;
+  }
+}
+@media screen and (max-width: 930px) {
+  #navbarNav {
+    position: relative;
+    top: 50px;
   }
 }
