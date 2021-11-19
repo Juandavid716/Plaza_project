@@ -91,8 +91,6 @@ export const Template = ({ children }) => {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.0423823378032!2d-75.62619878521451!3d8.875646693627305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5bd5d9cbf211c5%3A0xc2a302338f8b0644!2sPublic%20Market%20Cienaga%20de%20Oro!5e0!3m2!1sen!2sco!4v1637298698868!5m2!1sen!2sco"
               style={{ border: 0 }}
-              width="450"
-              height="350"
               allowfullscreen=""
               loading="lazy"
             ></iframe>
