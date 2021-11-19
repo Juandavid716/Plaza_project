@@ -1,0 +1,13 @@
+.item--step {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.item-text {
+  font-size: 26px;
+}
+@media (max-width: 500px) {
+  .item-text {
+    font-size: 12px;
+  }
+}

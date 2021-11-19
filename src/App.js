@@ -13,6 +13,7 @@ import { Valores } from "./components/Valores";
 import { Politicas } from "./components/Politicas";
 import { Organigrama } from "./components/Organigrama";
 import { Manuales } from "./components/Manuales";
+import { Equipo } from "./components/Equipo";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route exact path="/nosotros/politicas" element={<Politicas />} />
         <Route exact path="/nuestraorg" element={<Organigrama />} />
         <Route exact path="/manuales" element={<Manuales />} />
+        <Route exact path="/equipo" element={<Equipo />} />
       </Routes>
     </Router>
   );
